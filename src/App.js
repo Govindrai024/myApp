@@ -5,7 +5,9 @@ function App() {
   return (
 
     <view> 
-     Govind Rai Rathore here and say welcome.
+     <h2>Govind Rai Rathore here and say welcome.</h2>
+     <p>Trying to build my react app </p>
+
     </view> 
   );
 }
