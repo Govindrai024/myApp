@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
 
     <view> 
-     Govind Rai Rathore here.
+     Govind Rai Rathore here and say welcome.
     </view> 
   );
 }

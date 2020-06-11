@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: reactapp
+name: CI
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -28,11 +28,11 @@ jobs:
         version: 12 
 
     # Runs a set of commands using the runners shell
-    - name: GitHUb Action for Yarn           #Installing surge
+    - name: GitHUb Action for Yarn  #Installingsurge
       uses: Borales/actions-yarn@v2.1.0
       with:
         # Yarn command
-          cmd: install   #npm install/ yarn install
+          cmd: install   #npm install/yarn install
           
     - name: Creating build
       run: yarn build
