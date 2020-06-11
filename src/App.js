@@ -6,7 +6,7 @@ function App() {
   return (
 
     <view> 
-     Govind Rai Rathore hi
+     Govind Rai Rathore here.
     </view> 
   );
 }
